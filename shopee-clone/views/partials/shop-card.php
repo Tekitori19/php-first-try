@@ -15,4 +15,7 @@
             <p class="text-base font-medium text-gray-900">$32</p>
         </div>
     </div>
+    <button class="z-10 focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 focus:outline-none mx-2 my-2 bg-white transition duration-150 ease-in-out hover:bg-gray-100 hover:text-gray-600 rounded border border-gray-600 text-gray-500 px-8 py-3 text-sm leading-6">
+        Thêm vào giỏ hàng
+    </button>
 </div>

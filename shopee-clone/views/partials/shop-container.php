@@ -4,9 +4,9 @@
 
     <div class="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
     <?php
-        require "../views/partials/shop-card.view.php";
-        require "../views/partials/shop-card.view.php";
-        require "../views/partials/shop-card.view.php";
+        require "./partials/shop-card.php";
+        require "./partials/shop-card.php";
+        require "./partials/shop-card.php";
     ?>
 
     </div>
