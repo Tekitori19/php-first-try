@@ -42,7 +42,6 @@ class Employee {
         $this->department = $department;
     }
 
-    // Method to display employee information
     public function displayInfo(): void {
         echo "Name: " . $this->name . "\n";
         echo "Age: " . $this->age . "\n";
