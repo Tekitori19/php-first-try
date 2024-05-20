@@ -45,7 +45,6 @@ echo "Circle Perimeter: " . $circle->calculatePerimeter() . "<br>";
 
 echo "<br>";
 
-// Tạo một đối tượng Rectangle
 $rectangle = new Rectangle(4.0, 6.0);
 echo "Rectangle Area: " . $rectangle->calculateArea() . "<br>";
 echo "Rectangle Perimeter: " . $rectangle->calculatePerimeter() . "<br>";

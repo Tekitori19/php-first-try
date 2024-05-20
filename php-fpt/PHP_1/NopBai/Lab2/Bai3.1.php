@@ -10,7 +10,6 @@ namespace Company {
         private float $basicSalary;
         private float $allowance;
 
-        // Parameterized constructor
         public function __construct(
             string $employeeId = '',
             string $name = '',
@@ -76,7 +75,6 @@ namespace Company {
             return $this->basicSalary + $this->allowance;
         }
 
-        // Method to display employee information
         public function getInfo(): void {
             echo "Employee ID: " . $this->employeeId . "\n";
             echo "Name: " . $this->name . "\n";

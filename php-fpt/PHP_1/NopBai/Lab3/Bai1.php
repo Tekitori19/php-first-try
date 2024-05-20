@@ -63,11 +63,9 @@ class Manager extends Employee {
     }
 }
 
-// Tạo một đối tượng Employee
 $employee = new Employee(1, "Dinh", 3000);
 echo "Employee Salary: $" . $employee->calculateSalary() . "<br>";
 
-// Tạo một đối tượng Manager
 $manager = new Manager(2, "Tram", 5000, 1500);
 echo "Manager Salary: $" . $manager->calculateSalary() . "<br>";
 

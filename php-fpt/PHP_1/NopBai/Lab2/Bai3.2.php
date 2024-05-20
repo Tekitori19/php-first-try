@@ -2,7 +2,6 @@
 require './Bai3.1.php';
 use Company\Employee;
 
-// Creating an employee using the parameterized constructor
 $employee1 = new Employee(
     "FPT123",
     "Dinh",
