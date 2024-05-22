@@ -7,8 +7,8 @@ interface IPerson {
 }
 
 class Student implements IPerson {
-    public string $name;
-    public int $age;
+    private string $name;
+    private int $age;
     private string $studentId;
 
     public function __construct(string $name, int $age, string $studentId) {
