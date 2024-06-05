@@ -1,6 +1,5 @@
 <?php
-require_once('index.php');
-
+require_once('db.php');
 
 if (isset($_POST['submit'])) {
     if (isset($_FILES['ava'])) {
